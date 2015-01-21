@@ -6,3 +6,5 @@
 ./scholar.py --csv-header -c 300 --author "dj bernstein" --after "2010" > djb-2010-curr.csv
 
 cat djb-pre-1990.csv djb-1991-1995.csv djb-1996-2000.csv djb-2001-2005.csv djb-2006-2010.csv djb-2010-curr.csv > djb-all.csv
+
+# manual editing of djb-all.csv to remove duplicates and false attributions
